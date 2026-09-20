@@ -46,7 +46,8 @@ const PALETTES = [
   { name: "Gruvbox Light",   colors: ["#ebdbb2", "#bdae93", "#7c6f64", "#504945", "#282828"], bg: "#fbf1c7", light: true },
   { name: "Monokai",         colors: ["#2d2a2e", "#78dce8", "#a9dc76", "#ffd866", "#fcfcfa"], bg: "#221f22" },
   { name: "Tokyo Night",     colors: ["#1f2335", "#414868", "#7aa2f7", "#bb9af7", "#c0caf5"], bg: "#16161e" },
-  { name: "Catppuccin Mocha", colors: ["#313244", "#585b70", "#89b4fa", "#f5c2e7", "#cdd6f4"], bg: "#1e1e2e" }
+  { name: "Catppuccin Mocha", colors: ["#313244", "#585b70", "#89b4fa", "#f5c2e7", "#cdd6f4"], bg: "#1e1e2e" },
+  { name: "Catppuccin Latte", colors: ["#ccd0da", "#9ca0b0", "#7287fd", "#5c5f77", "#4c4f69"], bg: "#eff1f5", light: true }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

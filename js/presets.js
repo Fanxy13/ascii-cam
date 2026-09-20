@@ -25,7 +25,8 @@ const RAMPS = [
   { name: "Standard 16",  chars: " .`'\",:;!~+_-?][}{1)(|\\/*#%@$" },
   { name: "Quadrants",    chars: " \u2596\u2598\u259d\u2597\u2590\u258c\u2580\u2584\u259b\u259c\u2599\u259f\u2588" },
   { name: "Shades",       chars: " \u2591\u2592\u2593\u2588\u2588" },
-  { name: "Half blocks",  chars: " \u2581\u2582\u2583\u2584\u2585\u2586\u2587\u2588" }
+  { name: "Half blocks",  chars: " \u2581\u2582\u2583\u2584\u2585\u2586\u2587\u2588" },
+  { name: "Left blocks",  chars: " \u258f\u258e\u258d\u258c\u258b\u258a\u2589\u2588" }
 ];
 
 const PALETTES = [

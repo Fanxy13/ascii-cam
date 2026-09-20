@@ -96,7 +96,8 @@ const PALETTES = [
   { name: "Plan 9",          colors: ["#d8d8b8", "#a8a878", "#787848", "#484830", "#1a1a10"], bg: "#ffffea", light: true },
   { name: "Sepia",           colors: ["#2b2116", "#5c4733", "#8f7050", "#c4a179", "#f0e0c8"], bg: "#140f0a" },
   { name: "Blueprint",       colors: ["#0a2342", "#12456b", "#1d6fa5", "#5aa9e6", "#e8f4ff"], bg: "#04162b" },
-  { name: "Thermal",         colors: ["#000428", "#004e92", "#a8327d", "#ff6a00", "#ffee00"], bg: "#000218" }
+  { name: "Thermal",         colors: ["#000428", "#004e92", "#a8327d", "#ff6a00", "#ffee00"], bg: "#000218" },
+  { name: "X-Ray",           colors: ["#0a0a12", "#1e2a4a", "#3d5a8a", "#8aa8d8", "#ffffff"], bg: "#050509" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

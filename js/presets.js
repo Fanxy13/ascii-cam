@@ -64,7 +64,8 @@ const RAMPS = [
   { name: "Teletext",     chars: " \u2591\u2592\u2593\u25a0\u25ac\u25ae\u2588" },
   { name: "DOS legacy",   chars: " .\u00b0\u00b7\u2219\u25cb\u25d8\u25d9\u263a\u263b\u2588" },
   { name: "Ampersands",   chars: " .,;co0O8QB&@\u0416" },
-  { name: "Wide gradient", chars: " ..,,::;;!!ii11ttff||((}}{{##%%@@$$" }
+  { name: "Wide gradient", chars: " ..,,::;;!!ii11ttff||((}}{{##%%@@$$" },
+  { name: "Sparse",       chars: "  . " }
 ];
 
 const PALETTES = [

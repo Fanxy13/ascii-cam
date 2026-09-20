@@ -51,7 +51,8 @@ const RAMPS = [
   { name: "Logic",        chars: " .\u00ac\u2227\u2228\u2295\u2297\u220e" },
   { name: "Sets",         chars: " .\u2208\u2282\u2286\u2229\u222a\u2200\u2203" },
   { name: "Currency",     chars: " .\u00a2\u00a5\u20ac\u00a3$\u20a9\u20bf" },
-  { name: "Punctuation",  chars: " .,:;!?'\"()[]{}@#&" }
+  { name: "Punctuation",  chars: " .,:;!?'\"()[]{}@#&" },
+  { name: "Music",        chars: " .\u266a\u266b\u266c\u266d\u266e\u266f" }
 ];
 
 const PALETTES = [

@@ -60,7 +60,8 @@ const RAMPS = [
   { name: "Zodiac",       chars: " .\u264f\u2653\u264b\u2650\u2652\u2651" },
   { name: "Runes",        chars: " .\u16a0\u16a2\u16b1\u16b7\u16c1\u16d7\u16dd" },
   { name: "Superscript",  chars: " \u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079\u2070" },
-  { name: "Fractions",    chars: " \u215b\u00bc\u2153\u00bd\u2154\u00be\u215e1" }
+  { name: "Fractions",    chars: " \u215b\u00bc\u2153\u00bd\u2154\u00be\u215e1" },
+  { name: "Teletext",     chars: " \u2591\u2592\u2593\u25a0\u25ac\u25ae\u2588" }
 ];
 
 const PALETTES = [

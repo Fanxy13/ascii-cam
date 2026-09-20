@@ -37,7 +37,8 @@ const RAMPS = [
   { name: "Slashes",      chars: " .:/|\\X\u2573\u2588" },
   { name: "Hex digits",   chars: " 0123456789ABCDEF" },
   { name: "Digits",       chars: " 1234567890" },
-  { name: "Roman",        chars: " IVXLCDM" }
+  { name: "Roman",        chars: " IVXLCDM" },
+  { name: "Morse",        chars: " .-\u2013\u2014\u2588" }
 ];
 
 const PALETTES = [

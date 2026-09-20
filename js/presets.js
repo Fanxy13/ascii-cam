@@ -32,7 +32,8 @@ const RAMPS = [
   { name: "Squares",      chars: " \u00b7\u25ab\u25fd\u25a1\u25fc\u25aa\u25a0" },
   { name: "Triangles",    chars: " \u00b7\u25b5\u25b4\u25b3\u25b2\u25c6" },
   { name: "Diamonds",     chars: " \u00b7\u22c4\u25c7\u25c8\u25c6\u2666" },
-  { name: "Stars",        chars: " \u00b7\u02da\u2726\u2727\u2605\u2736\u2739" }
+  { name: "Stars",        chars: " \u00b7\u02da\u2726\u2727\u2605\u2736\u2739" },
+  { name: "Plus grid",    chars: " .\u00b7+\u2020\u2021#\u2593" }
 ];
 
 const PALETTES = [

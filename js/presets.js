@@ -44,7 +44,8 @@ const RAMPS = [
   { name: "Vowels",       chars: " .iueoaAEOUI" },
   { name: "Greek",        chars: " .\u03b9\u03c4\u03c5\u03bd\u03c3\u03b5\u03b1\u03c9\u03bc\u03a9\u03a6\u039e" },
   { name: "Cyrillic",     chars: " .\u0456\u0433\u0442\u0443\u043d\u0441\u0435\u0430\u0448\u0436\u0424\u0416" },
-  { name: "Box drawing",  chars: " \u2574\u2500\u252c\u253c\u254b\u2588" }
+  { name: "Box drawing",  chars: " \u2574\u2500\u252c\u253c\u254b\u2588" },
+  { name: "Double box",   chars: " \u2550\u2566\u256c\u2560\u2588" }
 ];
 
 const PALETTES = [

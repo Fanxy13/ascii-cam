@@ -61,7 +61,8 @@ const PALETTES = [
   { name: "Rose Pine",       colors: ["#26233a", "#6e6a86", "#9ccfd8", "#ebbcba", "#e0def4"], bg: "#191724" },
   { name: "Rose Pine Dawn",  colors: ["#dfdad9", "#9893a5", "#56949f", "#b4637a", "#575279"], bg: "#faf4ed", light: true },
   { name: "Kanagawa",        colors: ["#2a2a37", "#54546d", "#7e9cd8", "#98bb6c", "#dcd7ba"], bg: "#1f1f28" },
-  { name: "Night Owl",       colors: ["#1d3b53", "#5f7e97", "#82aaff", "#addb67", "#d6deeb"], bg: "#011627" }
+  { name: "Night Owl",       colors: ["#1d3b53", "#5f7e97", "#82aaff", "#addb67", "#d6deeb"], bg: "#011627" },
+  { name: "Oceanic",         colors: ["#1b2b34", "#4f5b66", "#6699cc", "#5fb3b3", "#d8dee9"], bg: "#152029" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

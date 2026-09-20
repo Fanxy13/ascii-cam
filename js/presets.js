@@ -54,7 +54,8 @@ const RAMPS = [
   { name: "Punctuation",  chars: " .,:;!?'\"()[]{}@#&" },
   { name: "Music",        chars: " .\u266a\u266b\u266c\u266d\u266e\u266f" },
   { name: "Chess",        chars: " .\u2659\u2657\u2658\u2656\u2655\u2654" },
-  { name: "Suits",        chars: " .\u2661\u2662\u2664\u2667\u2665\u2666\u2660\u2663" }
+  { name: "Suits",        chars: " .\u2661\u2662\u2664\u2667\u2665\u2666\u2660\u2663" },
+  { name: "Dice",         chars: " \u2680\u2681\u2682\u2683\u2684\u2685" }
 ];
 
 const PALETTES = [

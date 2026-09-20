@@ -84,7 +84,8 @@ const PALETTES = [
   { name: "Game Boy",        colors: ["#0f380f", "#306230", "#69a338", "#8bac0f", "#9bbc0f"], bg: "#0b2b0b" },
   { name: "Game Boy Pocket", colors: ["#2b2b26", "#54544a", "#8b8b7a", "#b5b5a0", "#c4cfa1"], bg: "#1f1f1c" },
   { name: "Virtual Boy",     colors: ["#200000", "#560000", "#9c0000", "#e00000", "#ff4040"], bg: "#110000" },
-  { name: "NES",             colors: ["#0d0d2b", "#3c3cbe", "#6a6aff", "#f8d878", "#fcfcfc"], bg: "#050514" }
+  { name: "NES",             colors: ["#0d0d2b", "#3c3cbe", "#6a6aff", "#f8d878", "#fcfcfc"], bg: "#050514" },
+  { name: "Apple II",        colors: ["#1a0d2e", "#5c2d91", "#20c20e", "#66ff66", "#e8ffe8"], bg: "#0b0517" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

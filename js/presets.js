@@ -29,7 +29,8 @@ const RAMPS = [
   { name: "Left blocks",  chars: " \u258f\u258e\u258d\u258c\u258b\u258a\u2589\u2588" },
   { name: "Braille dense", chars: " \u2801\u2809\u2819\u2839\u283d\u287d\u28fd\u28ff" },
   { name: "Dots & rings", chars: " \u00b7\u2219\u2022\u25cb\u25cf\u25c9\u25cf" },
-  { name: "Squares",      chars: " \u00b7\u25ab\u25fd\u25a1\u25fc\u25aa\u25a0" }
+  { name: "Squares",      chars: " \u00b7\u25ab\u25fd\u25a1\u25fc\u25aa\u25a0" },
+  { name: "Triangles",    chars: " \u00b7\u25b5\u25b4\u25b3\u25b2\u25c6" }
 ];
 
 const PALETTES = [

@@ -153,7 +153,8 @@ const PALETTES = [
   { name: "Slate",           colors: ["#161a1f", "#2f3a45", "#556677", "#8a9bad", "#dde5ed"], bg: "#0b0e12" },
   { name: "Ivory",           colors: ["#d4cfc0", "#a8a091", "#787060", "#4a4438", "#1f1c16"], bg: "#faf7ee", light: true },
   { name: "Newsprint",       colors: ["#c9c4b8", "#948e80", "#5e594d", "#33302a", "#121110"], bg: "#e8e4da", light: true },
-  { name: "Chalkboard",      colors: ["#14261c", "#2b4a38", "#5c8a6e", "#a3ccb3", "#f0fff5"], bg: "#0a1610" }
+  { name: "Chalkboard",      colors: ["#14261c", "#2b4a38", "#5c8a6e", "#a3ccb3", "#f0fff5"], bg: "#0a1610" },
+  { name: "Oscilloscope",    colors: ["#001a0d", "#00401f", "#00a352", "#1aff8c", "#ccffe6"], bg: "#000d06" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

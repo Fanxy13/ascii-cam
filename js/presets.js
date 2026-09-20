@@ -72,7 +72,8 @@ const PALETTES = [
   { name: "Vaporwave",       colors: ["#2d1b4e", "#7b2d8e", "#e256a0", "#67e8f9", "#fdf4ff"], bg: "#1a0f2e" },
   { name: "Miami",           colors: ["#1a1a2e", "#16213e", "#e94560", "#0f3460", "#f5f5f5"], bg: "#0f0f1e" },
   { name: "Blade Runner",    colors: ["#0b1a2a", "#123a5a", "#00a8cc", "#ff6b35", "#f7f7f2"], bg: "#050d16" },
-  { name: "Tron",            colors: ["#001014", "#00404d", "#00a1b8", "#22d3ee", "#e0ffff"], bg: "#000709" }
+  { name: "Tron",            colors: ["#001014", "#00404d", "#00a1b8", "#22d3ee", "#e0ffff"], bg: "#000709" },
+  { name: "Matrix",          colors: ["#001100", "#004400", "#008f11", "#00ff41", "#ccffcc"], bg: "#000500" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

@@ -47,7 +47,8 @@ const RAMPS = [
   { name: "Box drawing",  chars: " \u2574\u2500\u252c\u253c\u254b\u2588" },
   { name: "Double box",   chars: " \u2550\u2566\u256c\u2560\u2588" },
   { name: "Arrows",       chars: " .\u2190\u2191\u2192\u2193\u2194\u2195\u21d4\u21d5" },
-  { name: "Math",         chars: " .\u00b7\u2212+\u00b1\u2213\u00f7\u00d7\u221e" }
+  { name: "Math",         chars: " .\u00b7\u2212+\u00b1\u2213\u00f7\u00d7\u221e" },
+  { name: "Logic",        chars: " .\u00ac\u2227\u2228\u2295\u2297\u220e" }
 ];
 
 const PALETTES = [

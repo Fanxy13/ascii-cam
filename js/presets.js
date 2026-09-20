@@ -27,7 +27,8 @@ const RAMPS = [
   { name: "Shades",       chars: " \u2591\u2592\u2593\u2588\u2588" },
   { name: "Half blocks",  chars: " \u2581\u2582\u2583\u2584\u2585\u2586\u2587\u2588" },
   { name: "Left blocks",  chars: " \u258f\u258e\u258d\u258c\u258b\u258a\u2589\u2588" },
-  { name: "Braille dense", chars: " \u2801\u2809\u2819\u2839\u283d\u287d\u28fd\u28ff" }
+  { name: "Braille dense", chars: " \u2801\u2809\u2819\u2839\u283d\u287d\u28fd\u28ff" },
+  { name: "Dots & rings", chars: " \u00b7\u2219\u2022\u25cb\u25cf\u25c9\u25cf" }
 ];
 
 const PALETTES = [

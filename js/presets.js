@@ -79,7 +79,8 @@ const PALETTES = [
   { name: "Fallout",         colors: ["#0b1a0b", "#1a3a1a", "#2f7d32", "#41ff00", "#c9ffc9"], bg: "#040a04" },
   { name: "Commodore 64",    colors: ["#40318d", "#7869c4", "#8f8fff", "#b8b8ff", "#ffffff"], bg: "#352879" },
   { name: "ZX Spectrum",     colors: ["#0000c0", "#c000c0", "#00c0c0", "#c0c000", "#ffffff"], bg: "#000000" },
-  { name: "Game Boy",        colors: ["#0f380f", "#306230", "#69a338", "#8bac0f", "#9bbc0f"], bg: "#0b2b0b" }
+  { name: "Game Boy",        colors: ["#0f380f", "#306230", "#69a338", "#8bac0f", "#9bbc0f"], bg: "#0b2b0b" },
+  { name: "Game Boy Pocket", colors: ["#2b2b26", "#54544a", "#8b8b7a", "#b5b5a0", "#c4cfa1"], bg: "#1f1f1c" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

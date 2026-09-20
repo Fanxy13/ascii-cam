@@ -66,7 +66,8 @@ const PALETTES = [
   { name: "Night Owl",       colors: ["#1d3b53", "#5f7e97", "#82aaff", "#addb67", "#d6deeb"], bg: "#011627" },
   { name: "Oceanic",         colors: ["#1b2b34", "#4f5b66", "#6699cc", "#5fb3b3", "#d8dee9"], bg: "#152029" },
   { name: "Cobalt",          colors: ["#122738", "#15537a", "#0088ff", "#ffc600", "#ffffff"], bg: "#002240" },
-  { name: "Synthwave",       colors: ["#241b2f", "#495495", "#ff7edb", "#f97e72", "#fdfdfd"], bg: "#181325" }
+  { name: "Synthwave",       colors: ["#241b2f", "#495495", "#ff7edb", "#f97e72", "#fdfdfd"], bg: "#181325" },
+  { name: "Vaporwave",       colors: ["#2d1b4e", "#7b2d8e", "#e256a0", "#67e8f9", "#fdf4ff"], bg: "#1a0f2e" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

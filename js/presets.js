@@ -90,7 +90,8 @@ const PALETTES = [
   { name: "Apple II",        colors: ["#1a0d2e", "#5c2d91", "#20c20e", "#66ff66", "#e8ffe8"], bg: "#0b0517" },
   { name: "IBM 5151",        colors: ["#0a1a0a", "#1d4d1d", "#33aa33", "#4aff4a", "#b8ffb8"], bg: "#050d05" },
   { name: "VT220",           colors: ["#0a1410", "#17402c", "#2e8b57", "#4ade80", "#ccffe0"], bg: "#050a08" },
-  { name: "Hercules",        colors: ["#1a1200", "#4d3800", "#a37400", "#ffb700", "#ffe6a3"], bg: "#0d0900" }
+  { name: "Hercules",        colors: ["#1a1200", "#4d3800", "#a37400", "#ffb700", "#ffe6a3"], bg: "#0d0900" },
+  { name: "Plan 9",          colors: ["#d8d8b8", "#a8a878", "#787848", "#484830", "#1a1a10"], bg: "#ffffea", light: true }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

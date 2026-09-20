@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ASCII-Cam</title>
+<meta name="description" content="Your webcam, live, as ASCII art. Runs entirely in the browser — no upload, no server, no tracking.">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13' font-family='monospace'>%23</text></svg>">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="stage">
+  <canvas id="out" aria-label="ASCII rendering of the camera image"></canvas>
+  <div id="overlay" aria-hidden="true"></div>
+
+  <div id="splash">
+    <pre id="splash-art"></pre>
+    <h1>ASCII-CAM</h1>
+    <p>Your camera, live, as text.<br>Nothing leaves this device.</p>
+    <button id="start" class="primary">Enable camera</button>
+    <button id="demo" class="ghost">or watch the demo</button>
+    <p class="fineprint">Needs camera permission. If you deny it, the demo keeps running.</p>
+  </div>
+
+  <div id="hud">
+    <span id="hud-grid">—</span>
+    <span id="hud-fps">—</span>
+    <span id="hud-mode">—</span>
+  </div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+</div>
+
+<button id="panel-toggle" title="Toggle controls (H)" aria-expanded="true">&#9776;</button>
+
+<aside id="panel">
+  <header>
+    <span class="brand">ASCII-CAM</span>
+    <span class="rec-dot" id="rec-dot" hidden></span>
+  </header>
+
+  <section>
+    <label for="charset">Character ramp</label>
+    <select id="charset"></select>
+    <pre class="ramp-preview" id="ramp-preview"></pre>
+  </section>
+
+  <section>
+    <label for="palette">Palette</label>
+    <select id="palette"></select>
+    <div class="swatches" id="swatches"></div>
+  </section>
+
+  <section>
+    <label for="cols">Resolution <output id="cols-val"></output></label>
+    <input type="range" id="cols" min="20" max="320" step="2">
+  </section>
+
+  <section class="grid2">
+    <div>
+      <label for="contrast">Contrast <output id="contrast-val"></output></label>
+      <input type="range" id="contrast" min="0.2" max="3" step="0.05">
+    </div>
+    <div>
+      <label for="brightness">Brightness <output id="brightness-val"></output></label>
+      <input type="range" id="brightness" min="-0.5" max="0.5" step="0.01">
+    </div>
+    <div>
+      <label for="gamma">Gamma <output id="gamma-val"></output></label>
+      <input type="range" id="gamma" min="0.3" max="2.5" step="0.05">
+    </div>
+    <div>
+      <label for="weight">Glyph weight <output id="weight-val"></output></label>
+      <input type="range" id="weight" min="0.5" max="1.4" step="0.05">
+    </div>
+  </section>
+
+  <section class="toggles">
+    <label><input type="checkbox" id="truecolor"> Sample colour from image</label>
+    <label><input type="checkbox" id="invert"> Invert luminance</label>
+    <label><input type="checkbox" id="mirror"> Mirror</label>
+    <label><input type="checkbox" id="scanlines"> CRT scanlines</label>
+    <label><input type="checkbox" id="vignette"> Vignette</label>
+    <label><input type="checkbox" id="bloom"> Bloom</label>
+  </section>
+
+  <section class="buttons">
+    <button id="snap" title="Save PNG (S)">Save PNG</button>
+    <button id="copy" title="Copy frame as text (C)">Copy text</button>
+    <button id="txt" title="Download .txt (T)">Save .txt</button>
+    <button id="record" title="Record video (R)">Record</button>
+    <button id="flip" title="Switch camera (F)">Switch cam</button>
+    <button id="full" title="Fullscreen (Enter)">Fullscreen</button>
+    <button id="reset" class="ghost" title="Reset settings">Reset</button>
+  </section>
+
+  <footer>
+    <details>
+      <summary>Keyboard</summary>
+      <dl>
+        <dt>H</dt><dd>hide panel</dd>
+        <dt>S</dt><dd>save PNG</dd>
+        <dt>C</dt><dd>copy text</dd>
+        <dt>T</dt><dd>save .txt</dd>
+        <dt>R</dt><dd>record</dd>
+        <dt>F</dt><dd>switch camera</dd>
+        <dt>I</dt><dd>invert</dd>
+        <dt>M</dt><dd>mirror</dd>
+        <dt>&#8592; &#8594;</dt><dd>cycle ramp</dd>
+        <dt>&#8593; &#8595;</dt><dd>cycle palette</dd>
+      </dl>
+    </details>
+    <a href="https://github.com/Fanxy13/ascii-cam">source</a>
+  </footer>
+</aside>
+
+<script src="js/presets.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

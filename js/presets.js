@@ -21,7 +21,8 @@ const RAMPS = [
   { name: "Binary",      chars: " 01" },
   { name: "Braille",     chars: " ⠁⠃⠇⠏⠟⠿⡿⣿" },
   { name: "Hash ladder", chars: " .,:;=+*&%$XW#" },
-  { name: "Typewriter",  chars: " .,:!?9876543210eilyrtjfvcxzsuoawmkqbdgnhgJEFCLTYXZSUVAGDRKHBQNWM" }
+  { name: "Typewriter",  chars: " .,:!?9876543210eilyrtjfvcxzsuoawmkqbdgnhgJEFCLTYXZSUVAGDRKHBQNWM" },
+  { name: "Standard 16",  chars: " .`'\",:;!~+_-?][}{1)(|\\/*#%@$" }
 ];
 
 const PALETTES = [

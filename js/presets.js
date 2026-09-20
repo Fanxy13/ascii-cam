@@ -139,7 +139,8 @@ const PALETTES = [
   { name: "Bronze",          colors: ["#1f1608", "#4d3814", "#8a6524", "#c9973d", "#edd6a8"], bg: "#0f0b04" },
   { name: "Silver",          colors: ["#1c1f24", "#434a52", "#7b8794", "#b4bfca", "#f0f4f8"], bg: "#0e1013" },
   { name: "Gold",            colors: ["#241c00", "#5c4700", "#a37d00", "#e0b52e", "#fff0b8"], bg: "#120e00" },
-  { name: "Emerald",         colors: ["#04130c", "#0b3d24", "#14805c", "#2ecc8f", "#b3ffe0"], bg: "#020a06" }
+  { name: "Emerald",         colors: ["#04130c", "#0b3d24", "#14805c", "#2ecc8f", "#b3ffe0"], bg: "#020a06" },
+  { name: "Ruby",            colors: ["#1a0008", "#4d0019", "#99002e", "#e6004d", "#ff99bb"], bg: "#0d0004" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

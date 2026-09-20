@@ -40,7 +40,8 @@ const RAMPS = [
   { name: "Roman",        chars: " IVXLCDM" },
   { name: "Morse",        chars: " .-\u2013\u2014\u2588" },
   { name: "Lowercase",    chars: " .ijltfrcvxznsueoahkbdpqgwm" },
-  { name: "Uppercase",    chars: " .ILJTFCVXZSUEOAHKBDPQGWM" }
+  { name: "Uppercase",    chars: " .ILJTFCVXZSUEOAHKBDPQGWM" },
+  { name: "Vowels",       chars: " .iueoaAEOUI" }
 ];
 
 const PALETTES = [

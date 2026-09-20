@@ -34,7 +34,8 @@ const RAMPS = [
   { name: "Diamonds",     chars: " \u00b7\u22c4\u25c7\u25c8\u25c6\u2666" },
   { name: "Stars",        chars: " \u00b7\u02da\u2726\u2727\u2605\u2736\u2739" },
   { name: "Plus grid",    chars: " .\u00b7+\u2020\u2021#\u2593" },
-  { name: "Slashes",      chars: " .:/|\\X\u2573\u2588" }
+  { name: "Slashes",      chars: " .:/|\\X\u2573\u2588" },
+  { name: "Hex digits",   chars: " 0123456789ABCDEF" }
 ];
 
 const PALETTES = [

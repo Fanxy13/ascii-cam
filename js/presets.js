@@ -58,7 +58,8 @@ const RAMPS = [
   { name: "Dice",         chars: " \u2680\u2681\u2682\u2683\u2684\u2685" },
   { name: "Weather",      chars: " .\u2601\u2602\u2603\u2605\u2600" },
   { name: "Zodiac",       chars: " .\u264f\u2653\u264b\u2650\u2652\u2651" },
-  { name: "Runes",        chars: " .\u16a0\u16a2\u16b1\u16b7\u16c1\u16d7\u16dd" }
+  { name: "Runes",        chars: " .\u16a0\u16a2\u16b1\u16b7\u16c1\u16d7\u16dd" },
+  { name: "Superscript",  chars: " \u00b9\u00b2\u00b3\u2074\u2075\u2076\u2077\u2078\u2079\u2070" }
 ];
 
 const PALETTES = [

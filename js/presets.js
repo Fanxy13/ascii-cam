@@ -53,7 +53,8 @@ const RAMPS = [
   { name: "Currency",     chars: " .\u00a2\u00a5\u20ac\u00a3$\u20a9\u20bf" },
   { name: "Punctuation",  chars: " .,:;!?'\"()[]{}@#&" },
   { name: "Music",        chars: " .\u266a\u266b\u266c\u266d\u266e\u266f" },
-  { name: "Chess",        chars: " .\u2659\u2657\u2658\u2656\u2655\u2654" }
+  { name: "Chess",        chars: " .\u2659\u2657\u2658\u2656\u2655\u2654" },
+  { name: "Suits",        chars: " .\u2661\u2662\u2664\u2667\u2665\u2666\u2660\u2663" }
 ];
 
 const PALETTES = [

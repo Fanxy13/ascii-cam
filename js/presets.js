@@ -121,7 +121,8 @@ const PALETTES = [
   { name: "Neon",            colors: ["#0d0221", "#4a00e0", "#8e2de2", "#f72585", "#4cc9f0"], bg: "#060110" },
   { name: "Cyber",           colors: ["#0a0e17", "#1b3a4b", "#00d9ff", "#ff2a6d", "#d1f7ff"], bg: "#05080d" },
   { name: "Acid",            colors: ["#0f1a00", "#2e4d00", "#6b9e00", "#aaff00", "#e0ffb3"], bg: "#080d00" },
-  { name: "Toxic",           colors: ["#0a1400", "#2b4d0a", "#5c9e14", "#9eff1f", "#d9ffa8"], bg: "#050a00" }
+  { name: "Toxic",           colors: ["#0a1400", "#2b4d0a", "#5c9e14", "#9eff1f", "#d9ffa8"], bg: "#050a00" },
+  { name: "Bubblegum",       colors: ["#3d1a35", "#7a2f66", "#c44f9e", "#ff85c8", "#ffd6ed"], bg: "#1f0d1b" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

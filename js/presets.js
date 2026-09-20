@@ -100,7 +100,8 @@ const PALETTES = [
   { name: "Thermal",         colors: ["#000428", "#004e92", "#a8327d", "#ff6a00", "#ffee00"], bg: "#000218" },
   { name: "X-Ray",           colors: ["#0a0a12", "#1e2a4a", "#3d5a8a", "#8aa8d8", "#ffffff"], bg: "#050509" },
   { name: "Sonar",           colors: ["#00120c", "#00341f", "#00753f", "#00c853", "#a5ffcf"], bg: "#000806" },
-  { name: "Infrared",        colors: ["#14000a", "#4a0020", "#a30040", "#ff3366", "#ffb3c6"], bg: "#0a0005" }
+  { name: "Infrared",        colors: ["#14000a", "#4a0020", "#a30040", "#ff3366", "#ffb3c6"], bg: "#0a0005" },
+  { name: "Lava",            colors: ["#1a0500", "#5c1200", "#b32d00", "#ff6600", "#ffcc66"], bg: "#0d0200" }
 ];
 
 if (typeof module !== "undefined" && module.exports) {

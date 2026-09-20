@@ -56,7 +56,8 @@ const RAMPS = [
   { name: "Chess",        chars: " .\u2659\u2657\u2658\u2656\u2655\u2654" },
   { name: "Suits",        chars: " .\u2661\u2662\u2664\u2667\u2665\u2666\u2660\u2663" },
   { name: "Dice",         chars: " \u2680\u2681\u2682\u2683\u2684\u2685" },
-  { name: "Weather",      chars: " .\u2601\u2602\u2603\u2605\u2600" }
+  { name: "Weather",      chars: " .\u2601\u2602\u2603\u2605\u2600" },
+  { name: "Zodiac",       chars: " .\u264f\u2653\u264b\u2650\u2652\u2651" }
 ];
 
 const PALETTES = [

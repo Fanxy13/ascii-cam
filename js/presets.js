@@ -39,7 +39,8 @@ const RAMPS = [
   { name: "Digits",       chars: " 1234567890" },
   { name: "Roman",        chars: " IVXLCDM" },
   { name: "Morse",        chars: " .-\u2013\u2014\u2588" },
-  { name: "Lowercase",    chars: " .ijltfrcvxznsueoahkbdpqgwm" }
+  { name: "Lowercase",    chars: " .ijltfrcvxznsueoahkbdpqgwm" },
+  { name: "Uppercase",    chars: " .ILJTFCVXZSUEOAHKBDPQGWM" }
 ];
 
 const PALETTES = [

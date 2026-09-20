@@ -1,0 +1,40 @@
+/**
+ * Character ramps and colour palettes.
+ *
+ * A ramp runs dark -> light: index 0 is what you see in the shadows, the last
+ * character is what you see in the highlights. Because glyphs are drawn light
+ * on a dark background, "light" means a dense character that covers more of
+ * its cell — so these ramps read as the reverse of the classic Bourke ramp,
+ * which assumes ink on white paper.
+ *
+ * A palette also runs dark -> light. One entry paints the whole frame in that
+ * colour; several are picked by luminance. `bg` is the canvas background, and
+ * `light: true` marks a palette meant for a light background, which flips the
+ * ramp so the image does not come out as a negative.
+ */
+
+const RAMPS = [
+  { name: "Classic 70",  chars: " .'`^\",;:Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$" },
+  { name: "Standard 10", chars: " .:-=+*#%@" },
+  { name: "Blocks",      chars: " ░▒▓█" },
+  { name: "Minimal",     chars: " .#" },
+  { name: "Binary",      chars: " 01" },
+  { name: "Braille",     chars: " ⠁⠃⠇⠏⠟⠿⡿⣿" },
+  { name: "Hash ladder", chars: " .,:;=+*&%$XW#" },
+  { name: "Typewriter",  chars: " .,:!?9876543210eilyrtjfvcxzsuoawmkqbdgnhgJEFCLTYXZSUVAGDRKHBQNWM" }
+];
+
+const PALETTES = [
+  { name: "Terminal green", colors: ["#0d3b1e", "#1a7f37", "#3fb950", "#7ee787", "#b9f6ca"], bg: "#020604" },
+  { name: "Amber CRT",      colors: ["#3d2200", "#8a4f00", "#cc7a00", "#ffa629", "#ffd7a0"], bg: "#0a0602" },
+  { name: "Paper white",    colors: ["#3a3a3a", "#6e6e6e", "#a3a3a3", "#d4d4d4", "#ffffff"], bg: "#050505" },
+  { name: "Ink on paper",   colors: ["#c4c4c4", "#999999", "#666666", "#3d3d3d", "#111111"], bg: "#f2efe6", light: true },
+  { name: "Ice",            colors: ["#06283d", "#1363a8", "#2a9df4", "#7ec8ff", "#d6f0ff"], bg: "#010912" },
+  { name: "Magenta haze",   colors: ["#3d0033", "#8a0070", "#c71fa3", "#ff5ecb", "#ffc2ec"], bg: "#0c0009" },
+  { name: "Ember",          colors: ["#2b0a00", "#7a1c00", "#c43b00", "#ff6b2c", "#ffc08a"], bg: "#0a0301" },
+  { name: "Mono",           colors: ["#e6edf3"], bg: "#07080a" }
+];
+
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { RAMPS, PALETTES };
+}

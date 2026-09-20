@@ -36,7 +36,8 @@ const RAMPS = [
   { name: "Plus grid",    chars: " .\u00b7+\u2020\u2021#\u2593" },
   { name: "Slashes",      chars: " .:/|\\X\u2573\u2588" },
   { name: "Hex digits",   chars: " 0123456789ABCDEF" },
-  { name: "Digits",       chars: " 1234567890" }
+  { name: "Digits",       chars: " 1234567890" },
+  { name: "Roman",        chars: " IVXLCDM" }
 ];
 
 const PALETTES = [
